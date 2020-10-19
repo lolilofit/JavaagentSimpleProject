@@ -8,8 +8,8 @@
 
 Запустить .bat файл с параметром:
 
-  a. 1, если необходимо собрать модуль javaagent-module в .jar архив и обновить уже существующий архив для запуска
+    1, если необходимо собрать модуль javaagent-module в .jar архив и обновить уже существующий архив для запуска
   
-  b. 0, если необходимо запустить уже существующий .jar архив с javaagent (архив лежит в репозитории по пути src/main/java/javaagent-module-1.0-SNAPSHOT-jar-with-dependencies.jar)
+    0, если необходимо запустить уже существующий .jar архив с javaagent (архив лежит в репозитории по пути src/main/java/javaagent-module-1.0-SNAPSHOT-jar-with-dependencies.jar)
   
   ```./start_javaagent.bat [1|0]```
